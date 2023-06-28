@@ -17,7 +17,7 @@ app.listen(port,function(){
     console.log("Server has started succesfully");
 });
 
-mongoose.connect("mongodb+srv://willyfarel131003:*****@cluster0.ekkf39f.mongodb.net/todolistDB");
+mongoose.connect("mongodb+srv://willyfarel131003:Wirel130@cluster0.ekkf39f.mongodb.net/todolistDB");
 
 const itemsSchema ={
     name: String
